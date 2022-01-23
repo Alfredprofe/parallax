@@ -1,7 +1,7 @@
 html {
   font-size: 16px;
 }
-html .parallax {
+html .plximg {
   align-items: center;
   background-attachment: fixed;
   background-image: url("https://i.ibb.co/tJ2J5SC/img02.jpg");
@@ -13,13 +13,13 @@ html .parallax {
   opacity: 0.8;
   width: 100%;
 }
-html .parallax article {
+html .plximg .plxarticle {
   display: flex;
   justify-content: center;
   mix-blend-mode: luminosity;
   width: 100%;
 }
-html .parallax article h1 {
+html .plximg .plxarticle .plxh1 {
   background: #C4D8E4;
   color: #0C2533;
   font-family: Arial, Helvetica, sans-serif;
@@ -31,12 +31,12 @@ html .parallax article h1 {
 }
 html section {
   background: #040D15;
-  height: 50vh;
+  height: auto;
   padding: 3rem 0;
 }
 html section h2 {
   color: #30B4CA;
-  margin: 1rem 0 3rem 0;
+  margin: 0 0 2rem 0;
   text-align: center;
 }
 html section p {
@@ -54,39 +54,43 @@ html .parallax2 {
   background-size: cover;
   display: flex;
   height: 50vh;
+  justify-content: center;
   opacity: 0.8;
   width: 100%;
 }
-html .parallax2 article {
-  display: flex;
-  justify-content: center;
+html article {
   width: 100%;
 }
-html .parallax2 article h3 {
-  color: #fff;
+html article h3 {
+  color: #1212ab;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
+  mix-blend-mode: multiply;
+  text-align: center;
 }
 html .parallax3 {
+  align-items: center;
   background-attachment: fixed;
   background-image: url("https://i.ibb.co/DgjCMXN/img01.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  display: flex;
+  height: 70vh;
+  justify-content: center;
   opacity: 0.8;
   width: 100%;
 }
-html section {
-  height: 60vh;
-}
 html .parallax4 {
+  align-items: center;
   background-attachment: fixed;
   background-image: url("https://i.ibb.co/kxPS0N9/img04.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh;
+  display: flex;
+  height: 60vh;
+  justify-content: center;
   opacity: 0.8;
   width: 100%;
 }
