@@ -62,10 +62,9 @@ html article {
   width: 100%;
 }
 html article h3 {
-  color: #1212ab;
+  color: #08B7EA;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
-  mix-blend-mode: multiply;
   text-align: center;
 }
 html .parallax3 {
@@ -92,6 +91,56 @@ html .parallax4 {
   height: 60vh;
   justify-content: center;
   opacity: 0.8;
+  width: 100%;
+}
+html footer {
+  align-content: space-between;
+  background-attachment: fixed;
+  background-image: url("https://i.ibb.co/Wncz7Tm/img05.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 30rem #040d15 inset;
+  display: flex;
+  flex-wrap: wrap;
+  height: 80vh;
+  justify-content: center;
+}
+html footer .footer1 {
+  background: rgba(0, 0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  margin: 2rem 0 0 0;
+}
+html footer .footer1 a {
+  align-items: center;
+  background: #040D15;
+  border-radius: 0.5rem;
+  box-shadow: -3rem 0rem 2rem rgba(0, 0, 0, 0.3) inset;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 15rem;
+  justify-content: center;
+  padding: 1.6rem;
+  text-decoration: none;
+  width: 12rem;
+}
+html footer .footer1 a i {
+  font-size: 3rem;
+  text-align: center;
+}
+html footer .footer1 a p {
+  font-size: 1rem;
+  text-align: center;
+}
+html footer .copyright {
+  background: #040d15;
+  color: #30B4CA;
+  padding: 1rem 0;
+  text-align: center;
   width: 100%;
 }
 
